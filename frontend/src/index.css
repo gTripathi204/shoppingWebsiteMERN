@@ -1,0 +1,168 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.bg-body-tertiary {
+  padding-left: 10%;
+}
+
+.good-looking-anchartag {
+  text-decoration: none;
+  color: black;
+}
+
+.infoProduct {
+  margin: 0;
+  padding: 0;
+  color: rgb(82, 78, 78);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.ratingStar {
+  color: yellow;
+}
+
+.footer-align {
+  margin-top: auto;
+  text-align: center;
+  background-color: rgb(229, 143, 232);
+  color: rgb(250, 246, 246);
+  padding: 40px;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+}
+
+.adminHomeCard {
+  margin: 2rem 2rem;
+  padding: 2rem 2rem;
+}
+
+#linkContainer {
+  background-color: #bad4da;
+}
+
+#adminCardHeading {
+  height: 5rem;
+  margin: auto 0 2rem 0;
+  background-color: #a0deec;
+}
+#adminCardData {
+  margin: auto 0 2rem 0;
+  padding: 1rem;
+  background-color: #bad4da;
+}
+
+#flexDiv{
+  display: flex;
+}
+
+#textAlignCenter {
+  text-align: center;
+  padding: auto;
+}
+
+#horizontalLine {
+  height: "1px";
+  background-color: "black";
+  width: "80%";
+  align-items: center;
+  margin: "1rem 0";
+}
+
+#text-center {
+  align-items: center;
+  display: block;
+}
+
+#headerFormat {
+  padding: 20px 10%;
+  margin-bottom: 3rem;
+}
+
+#cardDiscountedPrice {
+  font-size: 25px;
+  margin: 2px 7px;
+  display: inline-block;
+}
+
+#cardMainPrice {
+  display: inline-block;
+  margin: 0 10px;
+  text-decoration: line-through;
+}
+
+#verticalLine {
+  border-top: 2px solid gainsboro;
+  color: "grey";
+  width: "100px";
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+#horizontalLine {
+  border-left: 2px solid gainsboro;
+  color: grey;
+  height: 20px;
+  width: 2px;
+  margin-left: 50%;
+  margin-top: 15px;
+}
+
+#adminCompleteOrderCard {
+  padding: 2rem;
+  background-color: #E0F4DE;
+  margin: 20px 0 ;
+  border: solid;
+  border-color: black;
+}
+#adminCancelledOrderCard {
+  padding: 2rem;
+  background-color: #FFE0DE;
+  margin: 20px 0 ;
+  border: solid;
+  border-color: black;
+}
+
+
+#adminAddAProductInput{
+  padding-left: 7px;
+  margin: 8px auto;
+}
+#textCenter{
+  align-self: end;
+  height: 70px;
+}
+
+
+.each-slide-effect > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  height: 350px;
+}
+
+.each-slide-effect span {
+  padding: 20px;
+  font-size: 20px;
+  background: #efefef;
+  text-align: center;
+}
